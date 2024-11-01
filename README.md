@@ -33,6 +33,10 @@ The title is set using the variable `title` but then the centered version of it 
 
 8. The final cost is the base price (in sinas) of `70 + increment`, which adds 25 sinas tothe base price for every 50g exceeding 100g
 
-### User Error
+### In case of a User Error
 
-The entire program, starting from the input statement on `line 10`, where the user inputs the weight, is place in a `try` and `except` in order to account for ny user errors. This program only accepts positive integers, and as such, will display an error message if a 
+The majority of the program, starting from the input statement on `line 10`, where the user inputs the weight, is placed in a `try` and `except` code blocks in order to account for any user errors. If the user enters any value other than a positive integer, the program displays a user-friendly error message telling them to enter a positive integer instead.
+
+## Test Samples
+
+This program is functional and has been tested multiple times to ensure that the prices for all weight categories are calculated accurately. Past test runs of this program can be found [here](https://docs.google.com/document/d/1LYfFTNTfeQz2yJ6NqM1cMFoa2qJs9kH8sXsEJyEkNEw/edit?tab=t.0).
