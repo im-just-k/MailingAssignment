@@ -9,7 +9,7 @@ This program calculates the price of a parcel based on weight categories and dis
 - Clear, centered title that is relevant to the program's function
 - User-friendly prompt for input.
 - Displays the final price in a formatted manner.
-- User user-friendly error message when a valid positive integer is not inputted
+- Shows a user-friendly error message when a valid positive integer is not inputted
 
 ## Logic
 
